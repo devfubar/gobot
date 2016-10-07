@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/gobottest"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/gobottest"
 	cv "github.com/lazywei/go-opencv/opencv"
 )
 

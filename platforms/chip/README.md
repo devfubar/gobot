@@ -6,7 +6,7 @@ For documentation about the CHIP platform click [here](http://docs.getchip.com/)
 
 ## How to Install
 ```
-go get -d -u github.com/hybridgroup/gobot/... && go install github.com/hybridgroup/gobot/platforms/chip
+go get -d -u github.com/devfubar/gobot/... && go install github.com/devfubar/gobot/platforms/chip
 ```
 
 ## Cross compiling for the CHIP
@@ -40,9 +40,9 @@ package main
 import (
     "fmt"
 
-    "github.com/hybridgroup/gobot"
-    "github.com/hybridgroup/gobot/platforms/chip"
-    "github.com/hybridgroup/gobot/drivers/gpio"
+    "github.com/devfubar/gobot"
+    "github.com/devfubar/gobot/platforms/chip"
+    "github.com/devfubar/gobot/drivers/gpio"
 )
 
 func main() {

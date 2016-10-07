@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/api"
-	"github.com/hybridgroup/gobot/platforms/pebble"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/api"
+	"github.com/devfubar/gobot/platforms/pebble"
 )
 
 func main() {

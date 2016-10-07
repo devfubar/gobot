@@ -5,8 +5,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/sysfs"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/sysfs"
 )
 
 func writeFile(path string, data []byte) (i int, err error) {

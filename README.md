@@ -1,4 +1,4 @@
-[![Gobot](https://raw.githubusercontent.com/hybridgroup/gobot-site/master/source/images/elements/gobot-logo-small.png)](http://gobot.io/)
+[![Gobot](https://raw.githubusercontent.com/devfubar/gobot-site/master/source/images/elements/gobot-logo-small.png)](http://gobot.io/)
 
 Gobot (http://gobot.io/) is a framework using the Go programming language (http://golang.org/) for robotics, physical computing, and the Internet of Things.
 
@@ -8,14 +8,14 @@ Want to use Javascript robotics? Check out our sister project Cylon.js (http://c
 
 Want to use Ruby on robots? Check out our sister project Artoo (http://artoo.io)
 
-[![GoDoc](https://godoc.org/github.com/hybridgroup/gobot?status.svg)](https://godoc.org/github.com/hybridgroup/gobot)
-[![Build Status](https://travis-ci.org/hybridgroup/gobot.png?branch=dev)](https://travis-ci.org/hybridgroup/gobot)
-[![Coverage Status](https://coveralls.io/repos/github/hybridgroup/gobot/badge.svg?branch=dev)](https://coveralls.io/github/hybridgroup/gobot?branch=dev)
-[![Go Report Card](https://goreportcard.com/badge/hybridgroup/gobot)](https://goreportcard.com/report/hybridgroup/gobot)
+[![GoDoc](https://godoc.org/github.com/devfubar/gobot?status.svg)](https://godoc.org/github.com/devfubar/gobot)
+[![Build Status](https://travis-ci.org/devfubar/gobot.png?branch=dev)](https://travis-ci.org/devfubar/gobot)
+[![Coverage Status](https://coveralls.io/repos/github/devfubar/gobot/badge.svg?branch=dev)](https://coveralls.io/github/devfubar/gobot?branch=dev)
+[![Go Report Card](https://goreportcard.com/badge/devfubar/gobot)](https://goreportcard.com/report/devfubar/gobot)
 
 ## Getting Started
 
-Get the Gobot source with: `go get -d -u github.com/hybridgroup/gobot/...`
+Get the Gobot source with: `go get -d -u github.com/devfubar/gobot/...`
 
 ## Examples
 
@@ -27,9 +27,9 @@ package main
 import (
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/platforms/firmata"
-	"github.com/hybridgroup/gobot/drivers/gpio"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/platforms/firmata"
+	"github.com/devfubar/gobot/drivers/gpio"
 )
 
 func main() {
@@ -65,8 +65,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/platforms/sphero"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/platforms/sphero"
 )
 
 func main() {
@@ -101,8 +101,8 @@ You can use the entire Gobot framework as shown in the examples above ("Classic"
 package main
 
 import (
-	"github.com/hybridgroup/gobot/drivers/gpio"
-	"github.com/hybridgroup/gobot/platforms/intel-iot/edison"
+	"github.com/devfubar/gobot/drivers/gpio"
+	"github.com/devfubar/gobot/platforms/intel-iot/edison"
 	"time"
 )
 
@@ -123,34 +123,34 @@ func main() {
 ## Hardware Support
 Gobot has a extensible system for connecting to hardware devices. The following robotics and physical computing platforms are currently supported:
 
-- [AR Drone 2.0](http://ardrone2.parrot.com/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/ardrone)
-- [Arduino](http://www.arduino.cc/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/firmata)
-- Audio <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/audio)
-- [Beaglebone Black](http://beagleboard.org/Products/BeagleBone+Black/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/beaglebone)
-- [Bebop](http://www.parrot.com/usa/products/bebop-drone/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/bebop)
-- [Bluetooth LE](https://www.bluetooth.com/what-is-bluetooth-technology/bluetooth-technology-basics/low-energy) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/ble)
-- [C.H.I.P](http://www.nextthing.co/pages/chip) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/chip)
-- [Digispark](http://digistump.com/products/1) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/digispark)
-- [Intel Edison](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/intel-iot/edison)
-- [Intel Joule](http://intel.com/joule/getstarted) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/intel-iot/joule)
-- [Joystick](http://en.wikipedia.org/wiki/Joystick) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/joystick)
-- [Keyboard](https://en.wikipedia.org/wiki/Computer_keyboard) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/keyboard)
-- [Leap Motion](https://www.leapmotion.com/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/leapmotion)
-- [MavLink](http://qgroundcontrol.org/mavlink/start) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/mavlink)
-- [MegaPi](http://www.makeblock.com/megapi) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/megapi)
-- [MQTT](http://mqtt.org/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/mqtt)
-- [NATS](http://nats.io/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/nats)
-- [Neurosky](http://neurosky.com/products-markets/eeg-biosensors/hardware/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/neurosky)
-- [OpenCV](http://opencv.org/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/opencv)
-- [Particle](https://www.particle.io/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/particle)
-- [Pebble](https://www.getpebble.com/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/pebble)
-- [Raspberry Pi](http://www.raspberrypi.org/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/raspi)
-- [Sphero](http://www.gosphero.com/) <=> [Package](https://github.com/hybridgroup/gobot/tree/master/platforms/sphero)
+- [AR Drone 2.0](http://ardrone2.parrot.com/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/ardrone)
+- [Arduino](http://www.arduino.cc/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/firmata)
+- Audio <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/audio)
+- [Beaglebone Black](http://beagleboard.org/Products/BeagleBone+Black/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/beaglebone)
+- [Bebop](http://www.parrot.com/usa/products/bebop-drone/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/bebop)
+- [Bluetooth LE](https://www.bluetooth.com/what-is-bluetooth-technology/bluetooth-technology-basics/low-energy) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/ble)
+- [C.H.I.P](http://www.nextthing.co/pages/chip) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/chip)
+- [Digispark](http://digistump.com/products/1) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/digispark)
+- [Intel Edison](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/intel-iot/edison)
+- [Intel Joule](http://intel.com/joule/getstarted) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/intel-iot/joule)
+- [Joystick](http://en.wikipedia.org/wiki/Joystick) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/joystick)
+- [Keyboard](https://en.wikipedia.org/wiki/Computer_keyboard) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/keyboard)
+- [Leap Motion](https://www.leapmotion.com/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/leapmotion)
+- [MavLink](http://qgroundcontrol.org/mavlink/start) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/mavlink)
+- [MegaPi](http://www.makeblock.com/megapi) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/megapi)
+- [MQTT](http://mqtt.org/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/mqtt)
+- [NATS](http://nats.io/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/nats)
+- [Neurosky](http://neurosky.com/products-markets/eeg-biosensors/hardware/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/neurosky)
+- [OpenCV](http://opencv.org/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/opencv)
+- [Particle](https://www.particle.io/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/particle)
+- [Pebble](https://www.getpebble.com/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/pebble)
+- [Raspberry Pi](http://www.raspberrypi.org/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/raspi)
+- [Sphero](http://www.gosphero.com/) <=> [Package](https://github.com/devfubar/gobot/tree/master/platforms/sphero)
 
 Support for many devices that use General Purpose Input/Output (GPIO) have
 a shared set of drivers provided using the `gobot/drivers/gpio` package:
 
-- [GPIO](https://en.wikipedia.org/wiki/General_Purpose_Input/Output) <=> [Drivers](https://github.com/hybridgroup/gobot/tree/master/drivers/gpio)
+- [GPIO](https://en.wikipedia.org/wiki/General_Purpose_Input/Output) <=> [Drivers](https://github.com/devfubar/gobot/tree/master/drivers/gpio)
 	- Analog Sensor
 	- Button
 	- Buzzer
@@ -175,7 +175,7 @@ a shared set of drivers provided using the `gobot/drivers/gpio` package:
 Support for devices that use Inter-Integrated Circuit (I2C) have a shared set of
 drivers provided using the `gobot/drivers/i2c` package:
 
-- [I2C](https://en.wikipedia.org/wiki/I%C2%B2C) <=> [Drivers](https://github.com/hybridgroup/gobot/tree/master/drivers/i2c)
+- [I2C](https://en.wikipedia.org/wiki/I%C2%B2C) <=> [Drivers](https://github.com/devfubar/gobot/tree/master/drivers/i2c)
 	- BlinkM
 	- Grove Digital Accelerometer
 	- Grove RGB LCD
@@ -194,7 +194,7 @@ More platforms and drivers are coming soon...
 
 Gobot includes a RESTful API to query the status of any robot running within a group, including the connection and device status, and execute device commands.
 
-To activate the API, require the `github.com/hybridgroup/gobot/api` package and instantiate the `API` like this:
+To activate the API, require the `github.com/devfubar/gobot/api` package and instantiate the `API` like this:
 
 ```go
   gbot := gobot.NewGobot()
@@ -220,12 +220,12 @@ Thank you!
 ## Need help?
 * Join our mailing list: https://groups.google.com/forum/#!forum/gobotio
 * IRC: `#gobotio @ irc.freenode.net`
-* Issues: https://github.com/hybridgroup/gobot/issues
+* Issues: https://github.com/devfubar/gobot/issues
 * twitter: [@gobotio](https://twitter.com/gobotio)
 
 ## Contributing
-For our contribution guidelines, please go to [https://github.com/hybridgroup/gobot/blob/master/CONTRIBUTING.md
-](https://github.com/hybridgroup/gobot/blob/master/CONTRIBUTING.md
+For our contribution guidelines, please go to [https://github.com/devfubar/gobot/blob/master/CONTRIBUTING.md
+](https://github.com/devfubar/gobot/blob/master/CONTRIBUTING.md
 ).
 
 ## License

@@ -11,7 +11,7 @@ The NATS messaging protocol (http://www.nats.io/documentation/internals/nats-pro
 Install running:
 
 ```
-go get -d -u github.com/hybridgroup/gobot/... && go install github.com/hybridgroup/gobot/platforms/nats
+go get -d -u github.com/devfubar/gobot/... && go install github.com/devfubar/gobot/platforms/nats
 ```
 
 ## How to Use
@@ -25,8 +25,8 @@ import (
   "fmt"
   "time"
 
-  "github.com/hybridgroup/gobot"
-  "github.com/hybridgroup/gobot/platforms/nats"
+  "github.com/devfubar/gobot"
+  "github.com/devfubar/gobot/platforms/nats"
 )
 
 func main() {
@@ -75,7 +75,7 @@ func main() {
 
 ## Contributing
 
-For our contribution guidelines, please go to https://github.com/hybridgroup/gobot/blob/master/CONTRIBUTING.md
+For our contribution guidelines, please go to https://github.com/devfubar/gobot/blob/master/CONTRIBUTING.md
 
 ## License
 

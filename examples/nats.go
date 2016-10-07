@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/platforms/nats"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/platforms/nats"
 )
 
 func main() {

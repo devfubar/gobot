@@ -3,7 +3,7 @@ package i2c
 import (
 	"time"
 
-	"github.com/hybridgroup/gobot"
+	"github.com/devfubar/gobot"
 )
 
 var _ gobot.Driver = (*WiichuckDriver)(nil)

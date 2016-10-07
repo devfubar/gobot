@@ -3,10 +3,10 @@ package main
 import (
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/api"
-	"github.com/hybridgroup/gobot/drivers/gpio"
-	"github.com/hybridgroup/gobot/platforms/firmata"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/api"
+	"github.com/devfubar/gobot/drivers/gpio"
+	"github.com/devfubar/gobot/platforms/firmata"
 )
 
 func main() {

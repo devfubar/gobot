@@ -1,6 +1,6 @@
 package gpio
 
-import "github.com/hybridgroup/gobot"
+import "github.com/devfubar/gobot"
 
 // ServoDriver Represents a Servo
 type ServoDriver struct {

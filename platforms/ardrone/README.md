@@ -6,7 +6,7 @@ For more info about the ARDrone platform click [here](http://ardrone2.parrot.com
 
 ## How to Install
 ```
-go get -d -u github.com/hybridgroup/gobot/... && go install github.com/hybridgroup/gobot/platforms/ardrone
+go get -d -u github.com/devfubar/gobot/... && go install github.com/devfubar/gobot/platforms/ardrone
 ```
 ## How to Use
 ```go
@@ -15,8 +15,8 @@ package main
 import (
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/platforms/ardrone"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/platforms/ardrone"
 )
 
 func main() {

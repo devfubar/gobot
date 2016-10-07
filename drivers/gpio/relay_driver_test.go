@@ -1,5 +1,5 @@
 package gpio
 
-import "github.com/hybridgroup/gobot"
+import "github.com/devfubar/gobot"
 
 var _ gobot.Driver = (*RelayDriver)(nil)

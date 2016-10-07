@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/platforms/joystick"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/platforms/joystick"
 )
 
 func main() {

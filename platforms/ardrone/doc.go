@@ -3,7 +3,7 @@ Package ardrone provides the Gobot adaptor and driver for the Parrot Ardrone.
 
 Installing:
 
-	go get -d -u github.com/hybridgroup/gobot/... && go install github.com/hybridgroup/gobot/platforms/ardrone
+	go get -d -u github.com/devfubar/gobot/... && go install github.com/devfubar/gobot/platforms/ardrone
 
 Example:
 
@@ -12,8 +12,8 @@ Example:
 	import (
 		"time"
 
-		"github.com/hybridgroup/gobot"
-		"github.com/hybridgroup/gobot/platforms/ardrone"
+		"github.com/devfubar/gobot"
+		"github.com/devfubar/gobot/platforms/ardrone"
 	)
 
 	func main() {
@@ -42,6 +42,6 @@ Example:
 	}
 
 For more information refer to the ardrone README:
-https://github.com/hybridgroup/gobot/tree/master/platforms/ardrone
+https://github.com/devfubar/gobot/tree/master/platforms/ardrone
 */
 package ardrone

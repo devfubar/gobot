@@ -3,7 +3,7 @@ package ble
 import (
 	"bytes"
 
-	"github.com/hybridgroup/gobot"
+	"github.com/devfubar/gobot"
 )
 
 var _ gobot.Driver = (*BatteryDriver)(nil)

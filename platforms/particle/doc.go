@@ -3,7 +3,7 @@ Package spark provides the Gobot adaptor for the Spark Core.
 
 Installing:
 
-	go get github.com/hybridgroup/gobot && go install github.com/hybridgroup/gobot/platforms/spark
+	go get github.com/devfubar/gobot && go install github.com/devfubar/gobot/platforms/spark
 
 Example:
 
@@ -12,9 +12,9 @@ Example:
 	import (
 		"time"
 
-		"github.com/hybridgroup/gobot"
-		"github.com/hybridgroup/gobot/drivers/gpio"
-		"github.com/hybridgroup/gobot/platforms/particle"
+		"github.com/devfubar/gobot"
+		"github.com/devfubar/gobot/drivers/gpio"
+		"github.com/devfubar/gobot/platforms/particle"
 	)
 
 	func main() {
@@ -41,6 +41,6 @@ Example:
 	}
 
 For further information refer to Particle readme:
-https://github.com/hybridgroup/gobot/blob/master/platforms/particle/README.md
+https://github.com/devfubar/gobot/blob/master/platforms/particle/README.md
 */
 package particle

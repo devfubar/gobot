@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hybridgroup/gobot/gobottest"
+	"github.com/devfubar/gobot/gobottest"
 )
 
 func TestEvery(t *testing.T) {

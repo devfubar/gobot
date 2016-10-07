@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/platforms/ble"
-	"github.com/hybridgroup/gobot/platforms/joystick"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/platforms/ble"
+	"github.com/devfubar/gobot/platforms/joystick"
 )
 
 type pair struct {

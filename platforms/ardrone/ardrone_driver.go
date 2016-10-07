@@ -1,7 +1,7 @@
 package ardrone
 
 import (
-	"github.com/hybridgroup/gobot"
+	"github.com/devfubar/gobot"
 )
 
 const (

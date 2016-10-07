@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/drivers/i2c"
-	"github.com/hybridgroup/gobot/platforms/chip"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/drivers/i2c"
+	"github.com/devfubar/gobot/platforms/chip"
 )
 
 func main() {

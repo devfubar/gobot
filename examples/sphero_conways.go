@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/platforms/sphero"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/platforms/sphero"
 )
 
 type conway struct {

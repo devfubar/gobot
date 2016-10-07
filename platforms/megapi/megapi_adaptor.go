@@ -4,7 +4,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/hybridgroup/gobot"
+	"github.com/devfubar/gobot"
 	"github.com/tarm/serial"
 )
 

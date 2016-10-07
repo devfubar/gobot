@@ -22,7 +22,7 @@ before_install:
  - unzip -j gnatsd-v0.9.4-linux-amd64.zip
  - ./gnatsd -p 4222 &
  - ./gnatsd -p 4223 --user test --pass testwd &
- - cd $HOME/gopath/src/github.com/hybridgroup/gobot
+ - cd $HOME/gopath/src/github.com/devfubar/gobot
  - go get github.com/axw/gocov/gocov
  - go get github.com/mattn/goveralls
  - if ! go get github.com/golang/tools/cmd/cover; then go get golang.org/x/tools/cmd/cover; fi

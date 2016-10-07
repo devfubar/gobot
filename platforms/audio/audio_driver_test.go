@@ -6,8 +6,8 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/gobottest"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*Driver)(nil)

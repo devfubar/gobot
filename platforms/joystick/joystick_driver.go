@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/hybridgroup/gobot"
+	"github.com/devfubar/gobot"
 	"github.com/veandco/go-sdl2/sdl"
 )
 

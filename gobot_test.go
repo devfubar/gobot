@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hybridgroup/gobot/gobottest"
+	"github.com/devfubar/gobot/gobottest"
 )
 
 func TestConnectionEach(t *testing.T) {

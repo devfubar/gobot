@@ -3,7 +3,7 @@ package neurosky
 import (
 	"bytes"
 
-	"github.com/hybridgroup/gobot"
+	"github.com/devfubar/gobot"
 )
 
 const BTSync byte = 0xAA

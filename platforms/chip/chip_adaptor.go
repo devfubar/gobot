@@ -3,7 +3,7 @@ package chip
 import (
 	"errors"
 
-	"github.com/hybridgroup/gobot/sysfs"
+	"github.com/devfubar/gobot/sysfs"
 )
 
 type Adaptor struct {

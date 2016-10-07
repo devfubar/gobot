@@ -3,8 +3,8 @@ package mavlink
 import (
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	common "github.com/hybridgroup/gobot/platforms/mavlink/common"
+	"github.com/devfubar/gobot"
+	common "github.com/devfubar/gobot/platforms/mavlink/common"
 )
 
 const (

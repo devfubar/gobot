@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/drivers/gpio"
-	"github.com/hybridgroup/gobot/drivers/i2c"
-	"github.com/hybridgroup/gobot/gobottest"
-	"github.com/hybridgroup/gobot/platforms/firmata/client"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/drivers/gpio"
+	"github.com/devfubar/gobot/drivers/i2c"
+	"github.com/devfubar/gobot/gobottest"
+	"github.com/devfubar/gobot/platforms/firmata/client"
 )
 
 var _ gobot.Adaptor = (*Adaptor)(nil)

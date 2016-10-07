@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/hybridgroup/gobot"
+	"github.com/devfubar/gobot"
 	"golang.org/x/net/websocket"
 )
 

@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/platforms/ble"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/platforms/ble"
 )
 
 func main() {

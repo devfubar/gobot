@@ -3,7 +3,7 @@ package gpio
 import (
 	"time"
 
-	"github.com/hybridgroup/gobot"
+	"github.com/devfubar/gobot"
 )
 
 // ButtonDriver Represents a digital Button

@@ -3,7 +3,7 @@ package ble
 import (
 	"testing"
 
-	"github.com/hybridgroup/gobot/gobottest"
+	"github.com/devfubar/gobot/gobottest"
 )
 
 func initTestBLEClientAdaptor() *ClientAdaptor {

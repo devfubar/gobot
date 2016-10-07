@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/sysfs"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/sysfs"
 )
 
 var slots = "/sys/devices/bone_capemgr.*"

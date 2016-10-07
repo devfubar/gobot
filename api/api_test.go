@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hybridgroup/gobot"
-	"github.com/hybridgroup/gobot/gobottest"
+	"github.com/devfubar/gobot"
+	"github.com/devfubar/gobot/gobottest"
 )
 
 func initTestAPI() *API {

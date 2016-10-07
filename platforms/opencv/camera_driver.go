@@ -5,7 +5,7 @@ import (
 
 	"time"
 
-	"github.com/hybridgroup/gobot"
+	"github.com/devfubar/gobot"
 	cv "github.com/lazywei/go-opencv/opencv"
 )
 

@@ -12,9 +12,9 @@ Example:
 	import (
 		"time"
 
-		"github.com/hybridgroup/gobot"
-		"github.com/hybridgroup/gobot/platforms/beaglebone"
-		"github.com/hybridgroup/gobot/drivers/gpio"
+		"github.com/devfubar/gobot"
+		"github.com/devfubar/gobot/platforms/beaglebone"
+		"github.com/devfubar/gobot/drivers/gpio"
 	)
 
 	func main() {
@@ -41,6 +41,6 @@ Example:
 	}
 
 For more information refer to the beaglebone README:
-https://github.com/hybridgroup/gobot/blob/master/platforms/beaglebone/README.md
+https://github.com/devfubar/gobot/blob/master/platforms/beaglebone/README.md
 */
 package beaglebone

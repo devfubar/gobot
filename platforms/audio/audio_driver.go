@@ -5,7 +5,7 @@ package audio
 import (
 	"time"
 
-	"github.com/hybridgroup/gobot"
+	"github.com/devfubar/gobot"
 )
 
 type Driver struct {
